@@ -1,0 +1,35 @@
+{
+  "name": "socketcluster-sample",
+  "description": "A sample SocketCluster app",
+  "version": "1.0.1",
+  "contributors": [
+    {
+      "name": "Jonathan Gros-Dubois",
+      "email": "grosjona@yahoo.com.au"
+    }
+  ],
+  "dependencies": {
+    "eetase": "^6.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.7.0",
+    "nodemon": "^2.0.22",
+    "scc-broker-client": "^9.0.3",
+    "serve-static": "^1.13.2",
+    "socketcluster-client": "^18.2.2",
+    "socketcluster-server": "^18.1.2",
+    "uuid": "^8.3.2"
+  },
+  "keywords": [
+    "websocket",
+    "server",
+    "realtime",
+    "cluster",
+    "scalable"
+  ],
+  "readmeFilename": "README.md",
+  "scripts": {
+    "start": "node server.js",
+    "start:watch": "./node_modules/nodemon/bin/nodemon.js server.js",
+    "start:docker": "./node_modules/nodemon/bin/nodemon.js /usr/src/app/server.js"
+  }
+}

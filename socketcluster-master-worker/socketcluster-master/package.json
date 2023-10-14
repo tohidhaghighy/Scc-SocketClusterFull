@@ -1,0 +1,32 @@
+{
+  "name": "socketcluster",
+  "version": "18.1.4",
+  "description": "Highly scalable realtime framework with support for async/await",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SocketCluster/socketcluster.git"
+  },
+  "keywords": [
+    "socketcluster",
+    "async",
+    "await",
+    "realtime"
+  ],
+  "author": "Jonathan Gros-Dubois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SocketCluster/socketcluster/issues"
+  },
+  "homepage": "https://socketcluster.io/",
+  "dependencies": {
+    "@maartennnn/cli-builder": "^2.3.0",
+    "fs-extra": "^7.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "bin": {
+    "socketcluster": "bin/cli.js"
+  }
+}
